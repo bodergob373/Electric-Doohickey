@@ -1,0 +1,38 @@
+Part,Purpose,Amount,Cost
+"curved and straight 
+metal tubes",frame,"4 curved, 
+6 straight",0 (scrap trampoline parts)
+extension springs,rear suspension,4,0 (scrap trampoline parts)
+plastic chair,seat,1,0 (already have)
+"10"" tires",front wheel and stabilizers,3,0 (already have)
+12kW hub motor,rear wheel,1,0 (will buy later)
+"3/4"" x 24"" threaded rod",hold suspension arm,1,10.51
+"5/16"" * 72"" threaded rod",hold battery modules,1,7.57
+"5/8"" * 12"" threaded rod",hold front wheel and springs,1,4.34
+"5/8"" * 36"" threaded rod",axle for stabilizing wheels,1,11.31
+"1/2"" * 36"" threaded rod",steering rod,1,7.93
+"used 2nd-gen nissan leaf 
+battery modules",power,20,266.67
+twist throttle,throttle,1,4.94
+BMS and shunt resistor,"protect batteries during 
+charge/discharge",1,105.99
+500A contactors,control charging and discharging,2,59.84
+135A contactor,control pre-charging,1,14.29
+350A motor controller,motor controller,1,179
+"0.25""x1""x72"" aluminum flat bar","bus-bars for battery power 
+terminals",1,9.36
+"0.125""x1""x24"" aluminum flat bar","bus-bars for voltage-sensing 
+terminals",1,4.36
+100W 40 ohm resistor,pre-charge resistor,1,11.67
+brass 16mm m6 bolts,"connect power terminals to 
+bus-bars",40,27.34
+brass 16mm m4 screws,"connect voltage-sensing 
+terminals to bus-bars",20,8.99
+100 ft 20 AWG silicone wire,between batteries and BMS,20-60 ft,13.98
+"1/4"" ring terminals","connect BMS wires to 
+battery terminals",20,8.99
+20 ft 8 AWG silicone wire,"connect motor controller to 
+motors and discharge contactor",15-20 ft,19.99
+"misc screws, nuts, shaft collars","attach wheels, springs, steering, throttle",~30,20
+,,,Total
+,,,797.07
