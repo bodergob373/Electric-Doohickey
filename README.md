@@ -24,5 +24,5 @@ My main goal for the future is to build an ethanol-electric hybrid car from scra
 ### 3D Printed Parts for Mounting the Twist Throttle and Hoverboard Motor
 <img width="814" height="633" alt="Screenshot 2025-07-12 105221" src="https://github.com/user-attachments/assets/3852722a-2500-45fb-8667-b3d0ac19703d" />
 
-### Temporary Hoverboard Motor and 3D-Printed Mount
+### Temporary Hoverboard Motor Connected with 3D-Printed Mount
 <img width="1180" height="641" alt="Screenshot 2025-07-12 105755" src="https://github.com/user-attachments/assets/8329be57-ad78-4524-af9e-ba135a3b3dfd" />
