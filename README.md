@@ -26,3 +26,6 @@ My main goal for the future is to build an ethanol-electric hybrid car from scra
 
 ### Temporary Hoverboard Motor Connected with 3D-Printed Mount
 <img width="1180" height="641" alt="Screenshot 2025-07-12 105755" src="https://github.com/user-attachments/assets/8329be57-ad78-4524-af9e-ba135a3b3dfd" />
+
+## BOM:
+https://docs.google.com/spreadsheets/d/1RJjejwJ8y24ydcLwPVteclJ-zP17mWSHqXySRraKmQs/edit?usp=sharing
