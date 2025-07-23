@@ -1,7 +1,7 @@
 # Electric-Doohickey
 
 ## Description
-A BMS with an array of 20 2nd-Gen Nissan Leaf battery modules in a 10s2p configuration connected to a motor controller and a 12kW 72V hub motor all placed in a small custom go-kart. The wheels are in a diamond configuration with one steerable wheel, one powered wheel, and two stabilizing wheels.
+A BMS with an array of 20 2nd-Gen Nissan Leaf battery modules in a 10s2p configuration connected to a motor controller and a 12kW 72V hub motor all placed in a small custom go-kart. The wheels are in a diamond configuration with one steerable wheel, one powered rear wheel, and two stabilizing wheels.
 
 ## Why?
 My main goal for the future is to build an ethanol-electric hybrid car from scratch. To do this, I need real-world experience designing electrical and mechanical stuff and more practice welding. I'm making this project so that I can design the electric part of the hybrid car and test it on a small, fast, and fun vehicle with only half the number of batteries, motor controllers, and motors.
