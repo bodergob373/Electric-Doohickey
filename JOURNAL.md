@@ -54,14 +54,14 @@ I modeled the motor controller.
 
 <img width="307" height="235" alt="image" src="https://github.com/user-attachments/assets/df3e2a76-d058-4dd0-bd2e-f32f3a1b62d2" />
 
-**Total time spent: 1h**
+**Total time spent: 0.5h**
 
 
 
 # July 7th: Designing 4
+To simplify battery mounting and wiring, I put all the batteries in one stack supported by threaded rods on three crosspipes of the frame. I also modeled the BMS, shunt resistor, both contactor sizes, the hub motor, and the twist throttle. To fit the twist throttle to the pipe, I designed a 3D printable adapter that it could fit around. Then, I added angled pipes to connect the stabilizers to the frame. For the rear wheel, I would need a strong way to mount the hub motor on the frame, but that would result in gross angles between the mounting pipes and the curved sides of the frame. I used this as an opportunity to add a swing arm with nice 90 degree angles connected to the frame with a threaded rod, holes, and nuts. For suspension, I put leftover trampoline compression springs under the swing arm so that they would stretch when the suspension is compressed. Finally, I started the wiring design by connecting the motor controller to the hub motor.
 
-
-<img width="307" height="235" alt="image" src="https://github.com/user-attachments/assets/df3e2a76-d058-4dd0-bd2e-f32f3a1b62d2" />
+<img width="719" height="459" alt="Screenshot 2025-07-22 194741" src="https://github.com/user-attachments/assets/72e9d44b-d560-433d-b72c-2f87114a0ac3" />
 
 **Total time spent: 9h**
 
