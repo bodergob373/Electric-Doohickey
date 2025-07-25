@@ -1,6 +1,6 @@
 # Electric-Doohickey
 
-**NOTE:**  I know this submission is really late, but I'm still confident I can finish this. I received all the parts I need so I just need to build it. I already have basic welding and soldering skills, and I spent a while making detailed plans and doing research so that things would go smoothly.
+**NOTE:**  I know this submission is really late, but I'm still confident I can finish this. I received all the parts I need so I just need to build it. I already have decent welding and soldering skills, and I spent a while making detailed plans and doing research so that things would go smoothly.
 
 ## Description
 A BMS with an array of 20 2nd-Gen Nissan Leaf battery modules in a 10s2p configuration connected to a motor controller and a 12kW 72V hub motor all placed in a small custom go-kart. The wheels are in a diamond configuration with one steerable wheel, one powered rear wheel, and two stabilizing wheels.
