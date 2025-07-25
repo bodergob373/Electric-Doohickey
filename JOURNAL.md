@@ -8,10 +8,30 @@ created_at: 2025-06-25
 
 
 # June 25th: Research
+In order to use one of the 12kW 72V hub motors that I want to use for the full car, I need powerful batteries. I looked at battery cells to buy, but I would need a lot of them. They're expensive and I don't want to wire them all together, so I searched for used EV/hybrid batteries. I found listings for battery modules from both a Toyota Prius and Nissan Leaf. I decided to use the Leaf batteries because they're cheaper and more commonly used.
 
-In order to use one of the 12kW 72V hub motors that I want to use for the full car, I need powerful batteries that can continuously output 167A. I looked at battery cells to buy, but I would need 150 of them. They're expensive and I don't want to wire them all together, so I decided to search for used EV batteries.
+**Total time spent: 4h**
 
-**Total time spent: 2h**
+
+
+# June 26th: Research 2
+I thought that because they're from a car, maybe I could only use one module with smaller motors. After researching the nominal voltage, I would need more because they're only 8.4V. If I want to keep using the powerful motor, I would need 9 modules. It turns out that their nominal voltage is around 7.2V, so I would actually need 10 in series. The battery also needs to supply enough current for the motor. 12000kW / 72V is 167A, so I will need more battery modules in parallel. I chose to have 4 modules in parallel for the full car with 2 motors, so this kart with only 1 motor should only have 2 in parallel. It's still not enough to run at 12kW continuously, but it could maybe supply enough for a few seconds during acceleration.
+
+**Total time spent: 3h**
+
+
+
+# June 28th: Research 3
+I found the motor controller. It's liquid-cooled and can handle 150A continuous at 72V. I researched parts of a liquid cooling system, but I realized it probably won't be using too much continuous current.
+
+**Total time spent: 3h**
+
+
+
+# June 28th: Batteries
+I bought 30 of the Nissan Leaf batteries I found and made sure that they worked.
+
+**Total time spent: 3h**
 
 
 
@@ -42,17 +62,24 @@ Using bus bars that go across the batteries in a straight line would be simpler,
 
 
 
-# July 4th: Research 2
-Found crimp terminals for connecting the motor to the motor controller. 
+# July 4th: Research 4
+Found crimp terminals for connecting the motor to the motor controller. I started researching what BMS I need. Only one voltage-sensing lead is needed per parallel group, so I would need a 10S BMS that can handle high amps. Many people use Orion BMS, but they're $400-$800. I spent a while lookimg for BMS units on Aliexpress and couldn't find many. I also wasn't completely sure whether I actually need only one for the whole battery pack or one per series string. The only one I found that might work could be an ANT BMS.
 
 **Total time spent: 5h**
 
 
 
-# July 6th: Research 4
-Apparently, another motor controller from the same company is both better and $60 cheaper than the one I already found. 
+# July 5th: Research 5
+I realized that the Nissan Leaf modules each have 4 cells in a 2S2P configuration, so a 10S BMS wouldn't even work well. I also found out that the mysterious third terminal between the positive and negative terminals is due to the 2S and is required for voltage sensing. So instead, I will need a 20S BMS. I searched Aliexpress again and found a company that has many different BMS units and found a 25S split-port BMS. I went back to Aliexpress and searched for the same model and found a slightly cheaper one. Split-port BMS units require outside charge, discharge, and pre-charge contactors. I found a 500A contactor.
 
-**Total time spent: 5h**
+**Total time spent: 4h**
+
+
+
+# July 6th: Research 6
+Apparently, another motor controller from the same company is both better and $60 cheaper than the one I already found, so I will use that. The pre-charge contactor does not need to handle as much current, so I found a smaller and cheaper contactor. The 500A contactors I found disappeared so I will use ones that the BMS seller also has. The wiring diagram in the BMS manual also shows that a pre-charge resitor is needed. I calculated the required resistance and found a chassis-mount resistor that can handle the current. I also calculated the cross-sectional area of copper I need for the bus bars on the positive and negative terminals. The bus bars for the voltage-sensing terminals only need to be cheap and wide enough to bolt onto the terminals. I was able to find enough copper at good sizes for a decent price. Then, I found M4 and M6 brass bolts and screws for the battery terminals. For wiring, I found 20 AWG silicone wire for voltage sensing and 8 AWG silicone wire for the motor controller. 2/0 AWG silicone wire is way too expensive.
+
+**Total time spent: 6h**
 
 
 
@@ -65,7 +92,7 @@ I modeled the motor controller.
 
 
 
-# July 8th: Designing 4
+# July 9th: Designing 4
 To simplify battery mounting and wiring, I put all the batteries in one stack supported by threaded rods on three crosspipes of the frame. I also modeled the BMS, shunt resistor, both contactor sizes, the hub motor, and the twist throttle. To fit the twist throttle to the pipe, I designed a 3D printable adapter that it could fit around. Then, I added angled pipes to connect the stabilizers to the frame. For the rear wheel, I would need a strong way to mount the hub motor on the frame, but that would result in gross angles between the mounting pipes and the curved sides of the frame. I used this as an opportunity to add a swing arm with nice 90 degree angles connected to the frame with a threaded rod, holes, and nuts. For suspension, I put leftover trampoline compression springs under the swing arm so that they would stretch when the suspension is compressed. Finally, I started the wiring design by connecting the motor controller to the hub motor.
 
 <img width="719" height="459" alt="image" src="https://github.com/user-attachments/assets/72e9d44b-d560-433d-b72c-2f87114a0ac3" />
@@ -74,7 +101,7 @@ To simplify battery mounting and wiring, I put all the batteries in one stack su
 
 
 
-# July 9th: Designing 5
+# July 10th: Designing 5
 I modeled the pre-charge resistor and designed all the wiring. To strengthen the stabilizers and make them easier to build, I removed their tilt and put them both on a threaded rod. I also designed the steering to actually work by havoing a pipe that rotates inside another and supports the lower half of the fork. A threaded rod connects it to the handle with nuts and shaft collars. Because I can't buy the $700 hub motor now, I want to use a hoverboard wheel temporarily because the voltage and current limits of the motor controller can be set. So that I can keep all the metal parts the same, I designed a 3D printable mount that allows the hoverboard wheel to be attached to the swing arm lower down. 
 
 <img width="828" height="399" alt="image" src="https://github.com/user-attachments/assets/04100db1-b3bb-4c02-8aae-8f335b30d122" />
@@ -85,7 +112,7 @@ I modeled the pre-charge resistor and designed all the wiring. To strengthen the
 
 
 
-# July 10th: Part Sourcing
+# July 11th: Part Sourcing
 I continued looking for parts such as wires and terminals. I would need 2/0 or 1/0 AWG silicone wire to handle the battery amps but it's like $7 per foot. I researched low-cost conductors and found that solid aluminum bars are cheap and lightweight with the only drawbacks of size and flexibility. I replaced the copper bus-bars in my design with slightly thicker and wider aluminum bars and found the right sizes online, saving $20. I still want to eliminate all thick wiring for other parts in the final design.
 
 <img width="848" height="652" alt="image" src="https://github.com/user-attachments/assets/ed1b6f06-f32a-4436-995a-4049498f9fe1" />
@@ -94,7 +121,7 @@ I continued looking for parts such as wires and terminals. I would need 2/0 or 1
 
 
 
-# July 11th: Final Design
+# July 15th: Final Design
 To replace all 2/0 AWG silicone wiring with solid aluminum, I extended the ends of the bus-bars and put the contactors and resistors on them. 
 
 <img width="848" height="652" alt="image" src="https://github.com/user-attachments/assets/ed1b6f06-f32a-4436-995a-4049498f9fe1" />
@@ -107,7 +134,7 @@ mrbeast for scale
 
 
 
-# July 15th: Wiring Diagram
+# July 16th: Wiring Diagram
 Made the wiring diagram in Google Drawings
 
 <img width="982" height="614" alt="image" src="https://github.com/user-attachments/assets/7aa6ef37-77ff-418a-b222-751268ab48f1" />
@@ -116,7 +143,7 @@ Made the wiring diagram in Google Drawings
 
 
 
-# July 16th: BOM
+# July 17th: BOM
 Made the BOM in Google Sheets
 
 <img width="626" height="680" alt="image" src="https://github.com/user-attachments/assets/7fb7395c-9c94-411c-80a3-9fd59ba256ab" />
