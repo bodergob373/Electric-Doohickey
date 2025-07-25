@@ -42,6 +42,20 @@ Using bus bars that go across the batteries in a straight line would be simpler,
 
 
 
+# July 4th: Research 2
+Found crimp terminals for connecting the motor to the motor controller. 
+
+**Total time spent: 5h**
+
+
+
+# July 6th: Research 4
+Apparently, another motor controller from the same company is both better and $60 cheaper than the one I already found. 
+
+**Total time spent: 5h**
+
+
+
 # July 7th: Designing 3
 I modeled the motor controller.
 
@@ -63,9 +77,60 @@ To simplify battery mounting and wiring, I put all the batteries in one stack su
 # July 9th: Designing 5
 I modeled the pre-charge resistor and designed all the wiring. To strengthen the stabilizers and make them easier to build, I removed their tilt and put them both on a threaded rod. I also designed the steering to actually work by havoing a pipe that rotates inside another and supports the lower half of the fork. A threaded rod connects it to the handle with nuts and shaft collars. Because I can't buy the $700 hub motor now, I want to use a hoverboard wheel temporarily because the voltage and current limits of the motor controller can be set. So that I can keep all the metal parts the same, I designed a 3D printable mount that allows the hoverboard wheel to be attached to the swing arm lower down. 
 
-
+<img width="828" height="399" alt="image" src="https://github.com/user-attachments/assets/04100db1-b3bb-4c02-8aae-8f335b30d122" />
+<img width="532" height="606" alt="image" src="https://github.com/user-attachments/assets/78a9d577-12d6-4686-ab93-2aff7a32f86a" />
+<img width="370" height="329" alt="image" src="https://github.com/user-attachments/assets/cb04b18b-43ea-4afa-980f-1a1d77457623" />
 
 **Total time spent: 7h**
+
+
+
+# July 10th: Part Sourcing
+I continued looking for parts such as wires and terminals. I would need 2/0 or 1/0 AWG silicone wire to handle the battery amps but it's like $7 per foot. I researched low-cost conductors and found that solid aluminum bars are cheap and lightweight with the only drawbacks of size and flexibility. I replaced the copper bus-bars in my design with slightly thicker and wider aluminum bars and found the right sizes online, saving $20. I still want to eliminate all thick wiring for other parts in the final design.
+
+<img width="848" height="652" alt="image" src="https://github.com/user-attachments/assets/ed1b6f06-f32a-4436-995a-4049498f9fe1" />
+
+**Total time spent: 2h**
+
+
+
+# July 11th: Final Design
+To replace all 2/0 AWG silicone wiring with solid aluminum, I extended the ends of the bus-bars and put the contactors and resistors on them. 
+
+<img width="848" height="652" alt="image" src="https://github.com/user-attachments/assets/ed1b6f06-f32a-4436-995a-4049498f9fe1" />
+
+mrbeast for scale
+
+<img width="518" height="531" alt="image" src="https://github.com/user-attachments/assets/4d7e2d95-6c98-4e06-bfb2-49e9e2292dc9" />
+
+**Total time spent: 2h**
+
+
+
+# July 15th: Wiring Diagram
+Made the wiring diagram in Google Drawings
+
+<img width="982" height="614" alt="image" src="https://github.com/user-attachments/assets/7aa6ef37-77ff-418a-b222-751268ab48f1" />
+
+**Total time spent: 3h**
+
+
+
+# July 16th: BOM
+Made the BOM in Google Sheets
+
+<img width="626" height="680" alt="image" src="https://github.com/user-attachments/assets/7fb7395c-9c94-411c-80a3-9fd59ba256ab" />
+
+**Total time spent: 2h**
+
+
+
+# July 21st: Metal 2
+Moved all the metal pipes into the garage, then scrubbed and hosed them down. Then, I bought the threaded rods, nuts, and washers from Home Depot.
+
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/f6db236b-7d8a-4079-a67b-fdeb73096dad" />
+
+**Total time spent: 5h**
 
 
 
