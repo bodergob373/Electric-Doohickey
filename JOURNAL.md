@@ -5,20 +5,13 @@ description: A prototype electric vehicle to gain experience and design the elec
 created_at: 2025-06-25
 ---
 
-# June 25th: First Research
 
-Used ChatGPT for researching 
+
+# June 25th: Research
+
+In order to use one of the 12kW 72V hub motors that I want to use for the full car, I need powerful batteries that can continuously output 167A. I looked at battery cells to buy, but I would need 150 of them. They're expensive and I don't want to wire them all together, so I decided to search for used EV batteries.
 
 **Total time spent: 2h**
-
-
-
-# July 11th: Starting the Submission
-
-I made the GitHub repository and named it this because it's a goofy contraption.
-
-**Total time spent: 10 min**
-
 
 
 
@@ -58,12 +51,23 @@ I modeled the motor controller.
 
 
 
-# July 7th: Designing 4
+# July 8th: Designing 4
 To simplify battery mounting and wiring, I put all the batteries in one stack supported by threaded rods on three crosspipes of the frame. I also modeled the BMS, shunt resistor, both contactor sizes, the hub motor, and the twist throttle. To fit the twist throttle to the pipe, I designed a 3D printable adapter that it could fit around. Then, I added angled pipes to connect the stabilizers to the frame. For the rear wheel, I would need a strong way to mount the hub motor on the frame, but that would result in gross angles between the mounting pipes and the curved sides of the frame. I used this as an opportunity to add a swing arm with nice 90 degree angles connected to the frame with a threaded rod, holes, and nuts. For suspension, I put leftover trampoline compression springs under the swing arm so that they would stretch when the suspension is compressed. Finally, I started the wiring design by connecting the motor controller to the hub motor.
 
-<img width="719" height="459" alt="Screenshot 2025-07-22 194741" src="https://github.com/user-attachments/assets/72e9d44b-d560-433d-b72c-2f87114a0ac3" />
+<img width="719" height="459" alt="image" src="https://github.com/user-attachments/assets/72e9d44b-d560-433d-b72c-2f87114a0ac3" />
 
 **Total time spent: 9h**
+
+
+
+# July 9th: Designing 5
+I modeled the pre-charge resistor and designed all the wiring. To strengthen the stabilizers and make them easier to build, I removed their tilt and put them both on a threaded rod. I also designed the steering to actually work by havoing a pipe that rotates inside another and supports the lower half of the fork. A threaded rod connects it to the handle with nuts and shaft collars. Because I can't buy the $700 hub motor now, I want to use a hoverboard wheel temporarily because the voltage and current limits of the motor controller can be set. So that I can keep all the metal parts the same, I designed a 3D printable mount that allows the hoverboard wheel to be attached to the swing arm lower down. 
+
+
+
+**Total time spent: 7h**
+
+
 
 # July 22nd: Cutting
 Because I have a limited number of straight short tubes and longer straight ones were slightly bent, I planned out what pipes will be cut and where. Before I will start cutting them, I laid the main frame quarters together and confirmed the dimensions. Then, I cut off the ends of them so that they could be easily be connected and be stronger.
