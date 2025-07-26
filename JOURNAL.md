@@ -72,7 +72,7 @@ Found crimp terminals for connecting the motor to the motor controller. I starte
 
 
 # July 5th: Research 5
-I realized that the Nissan Leaf modules each have 4 cells in a 2S2P configuration, so a 10S BMS wouldn't even work well. I also found out that the mysterious third terminal between the positive and negative terminals is due to the 2S and is required for voltage sensing. So instead, I will need a 20S BMS. I searched Aliexpress again and found a company that has many different BMS units and found a 25S split-port BMS. I went back to Aliexpress and searched for the same model and found a slightly cheaper one. Split-port BMS units require outside charge, discharge, and pre-charge contactors. I found a 500A contactor.
+I realized that the Nissan Leaf modules each have 4 cells in a 2S2P configuration, so a 10S BMS wouldn't even work well. I also found out that the mysterious third terminal between the positive and negative terminals is due to the 2S and is required for voltage sensing. So instead, I will need a 20S BMS. I searched Aliexpress again and found a company that has many different BMS units and found a 25S BMS. I went back to Aliexpress and searched for the same model and found a slightly cheaper one. The BMS requires outside charge, discharge, and pre-charge contactors. I found a 500A contactor.
 
 **Total time spent: 4h**
 
