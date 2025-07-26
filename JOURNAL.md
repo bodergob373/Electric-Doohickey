@@ -29,7 +29,9 @@ I found the motor controller. It's liquid-cooled and can handle 150A continuous 
 
 
 # June 28th: Batteries
-I bought 30 of the Nissan Leaf batteries I found and made sure that they worked.
+I bought 30 Nissan Leaf batteries and made sure they worked.
+
+<img width="521" height="693" alt="image" src="https://github.com/user-attachments/assets/b1956cce-2fbf-4269-ad9c-8be8d3ea8042" />
 
 **Total time spent: 3h**
 
