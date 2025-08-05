@@ -3,9 +3,8 @@ title: Electric Doohickey
 author: Jonathan Itoh
 description: A custom go-kart powered by 6 Nissan Leaf battery modules. It is driven by two hoverboard motors. The throttle sends signals to a microcontroller, which sends adjusted signals to both motor controllers. The rear wheels are on a suspension arm.
 created_at: 2025-06-25
-total time: 76h
 ---
-
+**total time spent: 76h**
 
 
 # June 25th: Research
