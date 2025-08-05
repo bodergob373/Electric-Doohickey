@@ -3,6 +3,7 @@ title: Electric Doohickey
 author: Jonathan Itoh
 description: A prototype electric vehicle to gain experience and design the electric system of an ethanol-electric hybrid I want to build in the future (and to build a fun go-kart). It's an array of 20 Nissan Leaf batteries managed by a BMS to power a 12kW hub motor (or a temporary hoverboard motor until I could afford it).
 created_at: 2025-06-25
+total time: 76h
 ---
 
 
@@ -169,3 +170,10 @@ Because I have a limited number of straight short tubes and longer straight ones
 <img width="257" height="421" alt="image" src="https://github.com/user-attachments/assets/8929b37c-2a8c-4fac-b6ff-b05d5ba521fc" />
 
 **Total time spent: 4h**
+
+
+
+# August 3rd: Redesign
+Redesigned and simplified the wiring and model
+
+**Total time spent: 2h**
