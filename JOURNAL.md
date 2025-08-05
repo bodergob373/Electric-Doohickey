@@ -1,7 +1,7 @@
 ---
 title: Electric Doohickey
 author: Jonathan Itoh
-description: A prototype electric vehicle to gain experience and design the electric system of an ethanol-electric hybrid I want to build in the future (and to build a fun go-kart). It's an array of 20 Nissan Leaf batteries managed by a BMS to power a 12kW hub motor (or a temporary hoverboard motor until I could afford it).
+description: A custom go-kart powered by 6 Nissan Leaf battery modules. It is driven by two hoverboard motors. The throttle sends signals to a microcontroller, which sends adjusted signals to both motor controllers. The rear wheels are on a suspension arm.
 created_at: 2025-06-25
 total time: 76h
 ---
