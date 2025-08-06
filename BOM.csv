@@ -1,38 +1,37 @@
-Part,Purpose,Amount,Cost
+Part,Purpose,Amount,Cost,Notes
 "curved and straight 
 metal tubes",frame,"4 curved, 
-6 straight",0 (scrap trampoline parts)
-extension springs,rear suspension,4,0 (scrap trampoline parts)
-plastic chair,seat,1,0 (already have)
-"10"" tires",front wheel and stabilizers,3,0 (already have)
-12kW hub motor,rear wheel,1,"0 (will buy later, using hoverboard motor for now)"
-"3/4"" x 24"" threaded rod",hold suspension arm,1,10.51
-"5/16"" x 72"" threaded rod",hold battery modules,1,7.57
-"5/8"" x 12"" threaded rod",hold front wheel and springs,1,4.34
-"5/8"" x 36"" threaded rod",axle for stabilizing wheels,1,11.31
-"1/2"" x 36"" threaded rod",steering rod,1,7.93
+6 straight",0,scrap trampoline parts
+extension springs,rear suspension,4,0,scrap trampoline parts
+plastic chair,seat,1,0,already have
+"10"" tires",front wheel and stabilizers,3,0,already have
+hoverboard motor,rear wheels,2,0,already have
+esp32,send throttle input to both controllers,1,0,already have
+2s lipo battery,power microcontroller and contactor,1,0,already have
+switch,connect small battery to microcontroller and contactor,1,0,already have
+"3/4"" x 24"" threaded rod",hold suspension arm,1,10.51,
+"5/16"" * 72"" threaded rod",hold battery modules,1,7.57,
+"5/8"" * 12"" threaded rod",hold front wheel and springs,1,4.34,
+"5/8"" * 36"" threaded rod",axle for stabilizing wheels,1,11.31,
+"1/2"" * 36"" threaded rod",steering rod,1,7.93,
 "used 2nd-gen nissan leaf 
-battery modules",power,20,266.67
-twist throttle,throttle,1,4.94
-BMS and shunt resistor,"protect batteries during 
-charge/discharge",1,105.99
-500A contactors,control charging and discharging,2,59.84
-135A contactor,control pre-charging,1,14.29
-350A motor controller,motor controller,1,179
+battery modules",power motors,6,80,30 modules were $400
+twist throttle,throttle,1,4.94,
+motor controllers,control motors,2,120,"i've already bought the more expensive motor controllers for the 
+old design. this is the price of the cheaper motor 
+controllers i would have used for the new design."
+135A contactor,connect battery to motor controllers when turned on,1,14.29,
 "0.25""x1""x72"" aluminum flat bar","bus-bars for battery power 
-terminals",1,9.36
-"0.125""x1""x24"" aluminum flat bar","bus-bars for voltage-sensing 
-terminals",1,4.36
-100W 40 ohm resistor,pre-charge resistor,1,11.67
-brass 16mm m6 bolts,"connect power terminals to 
-bus-bars",40,27.34
-brass 16mm m4 screws,"connect voltage-sensing 
-terminals to bus-bars",20,8.99
-100 ft 20 AWG silicone wire,between batteries and BMS,20-60 ft,13.98
-"1/4"" ring terminals","connect BMS wires to 
-battery terminals",20,8.99
+terminals",2,18.72,
+20mm m6 bolts,"connect power terminals to 
+bus-bars",30,8.07,
+100 ft 20 AWG silicone wire,connect to throttle and contactor,100 ft,13.98,
+"1/4"" ring terminals",connect to throttle and contactor,100,8.99,
 20 ft 8 AWG silicone wire,"connect motor controller to 
-motors and discharge contactor",15-20 ft,19.99
-"misc screws, nuts, shaft collars","attach wheels, springs, steering, throttle",~30,20
-,,,Total
-,,,797.07
+battery and motors",20 ft,19.99,
+"1/2"" shaft collars",hold parts on steering rod,10,8.49,
+"5/8"" shaft collars",hold wheel nuts in place,10,8.49,
+"3/4"" shaft collars",hold suspension arm in place,8,13.99,
+"misc screws, nuts, and washers","attach wheels, springs, steering, throttle",~20,10,
+,,,Total,
+,,,371.61,
