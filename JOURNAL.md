@@ -10,12 +10,17 @@ created_at: 2025-06-25
 # June 25th: Research
 In order to use one of the 12kW 72V hub motors that I want to use for the full car, I need powerful batteries. I looked at battery cells to buy, but I would need a lot of them. They're expensive and I don't want to wire them all together, so I searched for used EV/hybrid batteries. I found listings for battery modules from both a Toyota Prius and Nissan Leaf. I decided to use the Leaf batteries because they're cheaper and more commonly used.
 
+<img width="432" height="457" alt="module-from-nissan-leaf-gen-2-24kwh" src="https://github.com/user-attachments/assets/e3d02869-ed65-406d-ba0b-df983bca6675" />
+
 **Total time spent: 4h**
 
 
 
 # June 26th: Research 2
 I thought that because they're from a car, maybe I could only use one module with smaller motors. After researching the nominal voltage, I would need more because they're only 8.4V. If I want to keep using the powerful motor, I would need 9 modules. It turns out that their nominal voltage is around 7.2V, so I would actually need 10 in series. The battery also needs to supply enough current for the motor. 12000kW / 72V is 167A, so I will need more battery modules in parallel. I chose to have 4 modules in parallel for the full car with 2 motors, so this kart with only 1 motor should only have 2 in parallel. It's still not enough to run at 12kW continuously, but it could maybe supply enough for a few seconds during acceleration.
+
+<img width="770" height="384" alt="Screenshot 2025-08-07 174306" src="https://github.com/user-attachments/assets/77ce9c60-ec3e-40d3-b709-b9800f1b6fc3" />
+
 
 **Total time spent: 3h**
 
@@ -67,6 +72,10 @@ Using bus bars that go across the batteries in a straight line would be simpler,
 # July 4th: Research 4
 Found crimp terminals for connecting the motor to the motor controller. I started researching what BMS I need. Only one voltage-sensing lead is needed per parallel group, so I would need a 10S BMS that can handle high amps. Many people use Orion BMS, but they're $400-$800. I spent a while lookimg for BMS units on Aliexpress and couldn't find many. I also wasn't completely sure whether I actually need only one for the whole battery pack or one per series string. The only one I found that might work could be an ANT BMS.
 
+![ANT-BMS-10S-24S-50A-180A-Smart-32V-88V-Lifepo4-li-ion-LTO-Battery-Protection-Board-Double-PCBA-2](https://github.com/user-attachments/assets/723f1aea-5b29-462f-b28b-832fc12c61e1)
+![71Gar08qu2L _SX522_](https://github.com/user-attachments/assets/2b0f8fe0-b058-4843-8f0c-7d8c5004843d)
+
+
 **Total time spent: 5h**
 
 
@@ -74,12 +83,17 @@ Found crimp terminals for connecting the motor to the motor controller. I starte
 # July 5th: Research 5
 I realized that the Nissan Leaf modules each have 4 cells in a 2S2P configuration, so a 10S BMS wouldn't even work well. I also found out that the mysterious third terminal between the positive and negative terminals is due to the 2S and is required for voltage sensing. So instead, I will need a 20S BMS. I searched Aliexpress again and found a company that has many different BMS units and found a 25S BMS. I went back to Aliexpress and searched for the same model and found a slightly cheaper one. The BMS requires outside charge, discharge, and pre-charge contactors. I found a 500A contactor.
 
+
 **Total time spent: 4h**
 
 
 
 # July 6th: Research 6
 Apparently, another motor controller from the same company is both better and $60 cheaper than the one I already found, so I will use that. The pre-charge contactor does not need to handle as much current, so I found a smaller and cheaper contactor. The 500A contactors I found disappeared so I will use ones that the BMS seller also has. The wiring diagram in the BMS manual also shows that a pre-charge resitor is needed. I calculated the required resistance and found a chassis-mount resistor that can handle the current. I also calculated the cross-sectional area of copper I need for the bus bars on the positive and negative terminals. The bus bars for the voltage-sensing terminals only need to be cheap and wide enough to bolt onto the terminals. I was able to find enough copper at good sizes for a decent price. Then, I found M4 and M6 brass bolts and screws for the battery terminals. For wiring, I found 20 AWG silicone wire for voltage sensing and 8 AWG silicone wire for the motor controller. 2/0 AWG silicone wire is way too expensive.
+
+<img width="451" height="454" alt="Screenshot 2025-08-07 173133" src="https://github.com/user-attachments/assets/c88ee5b1-a8d8-47f9-9412-95e69d433779" />
+<img width="464" height="453" alt="Screenshot 2025-08-07 173106" src="https://github.com/user-attachments/assets/3d46b909-0bdb-4a96-8338-025a3b8f4180" />
+<img width="673" height="190" alt="Screenshot 2025-08-07 173437" src="https://github.com/user-attachments/assets/7bdbd304-b725-42f3-919f-080a8ee5bbc9" />
 
 **Total time spent: 6h**
 
@@ -98,6 +112,8 @@ I modeled the motor controller.
 To simplify battery mounting and wiring, I put all the batteries in one stack supported by threaded rods on three crosspipes of the frame. I also modeled the BMS, shunt resistor, both contactor sizes, the hub motor, and the twist throttle. To fit the twist throttle to the pipe, I designed a 3D printable adapter that it could fit around. Then, I added angled pipes to connect the stabilizers to the frame. For the rear wheel, I would need a strong way to mount the hub motor on the frame, but that would result in gross angles between the mounting pipes and the curved sides of the frame. I used this as an opportunity to add a swing arm with nice 90 degree angles connected to the frame with a threaded rod, holes, and nuts. For suspension, I put leftover trampoline extension springs under the swing arm so that they would stretch when the suspension is compressed. Finally, I started the wiring design by connecting the motor controller to the hub motor.
 
 <img width="719" height="459" alt="image" src="https://github.com/user-attachments/assets/72e9d44b-d560-433d-b72c-2f87114a0ac3" />
+<img width="882" height="460" alt="Screenshot 2025-08-07 173654" src="https://github.com/user-attachments/assets/db58b152-0c9c-45f6-93fb-ffdeb93bd8df" />
+<img width="626" height="407" alt="Screenshot 2025-08-07 173717" src="https://github.com/user-attachments/assets/c3deb327-5fdb-4091-9e82-85d4bf7ea538" />
 
 **Total time spent: 9h**
 
