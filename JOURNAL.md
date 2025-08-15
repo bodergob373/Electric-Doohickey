@@ -294,6 +294,28 @@ I put the battery modules on the threaded rods and measured the distance between
 
 # August 11th: Electronics 2
 
-I attached the hoverboard motor to a controller for testing. They're VESCs, so I downloaded VESC Tool and watched some tutorials on how to use it. I powered the controller and 
+I attached the hoverboard motor to a controller for testing. They're VESCs, so I downloaded VESC Tool and watched some tutorials on how to use it. I powered the controller and tested different settings. The motor wouldn't spin, but the problem was actually the temporary taped connections for the hall sensors. After crimping them into plugs and soldering them, my settings worked and the motors spun. I also crimped the larger terminals onto the controller and added longer phase wires between the controller and motor.
 
 **Total time spent: 6h**
+
+# August 12th: Electronics 3
+
+Now that the motor controllers and motors work, I need to make the throttle and contactor work. I originally thought I needed a microcontroller to split the throttle signals to the two controllers and to tune them well. I decided to remove the microcontroller because I tested connecting the GND and signal wires to both controllers and powering it from one and it worked. VESC app settings also allowed me to tune the duty cycle based on the minimum and maximum signals from the twist throttle. I measured the car, cut some long wires for the throttle, soldered them, and crimped them onto plugs. I cut some thicker wire, stripped the ends, crimped them onto terminals, and connected them to the motor controller and contactor. Finally, I soldered more long wires to a switch and the contactor so that power can be connected and disconnected.
+
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/fadf809b-a635-4138-b017-b8716321e4a7" />
+<img width="549" height="593" alt="image (3)" src="https://github.com/user-attachments/assets/a7a094f0-3fde-491d-b5e2-0ffd0d9ab198" />
+
+**Total time spent: 7h**
+
+
+# August 13th: Assembling 2
+
+I lifted the battery onto the frame and connected them with threaded rods. I attached the seat and hoverboard motors, then taped the motor controllers on and started connecting terminals to a small battery for testing. I inverted the direction of one motor and readjusted voltage and current settings. I turned it on and it moved when I twisted the throttle, but one 3D printed wheel mount with less walls snapped. I melted it back together with scrap PLA and a heatgun and it became much stronger. When I brought it outside to test, it stopped turning on and the contactor wouldn't close.
+
+**Total time spent: 5h**
+
+# August 14th: Final Build
+
+I found out that some wires between the 
+
+**Total time spent: 5h**
