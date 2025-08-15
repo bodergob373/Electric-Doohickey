@@ -11,6 +11,13 @@ A BMS with an array of 20 2nd-Gen Nissan Leaf battery modules in a 10s2p configu
 ## Why?
 My main goal for the future is to build an ethanol-electric hybrid car from scratch. To do this, I need real-world experience designing electrical and mechanical stuff and more practice welding. I'm making this project so that I can design the electric part of the hybrid car and test it on a small, fast, and fun vehicle with only half the number of batteries, motor controllers, and motors.
 
+## The Build
+https://github.com/user-attachments/assets/7585e1b4-31f4-40f6-9fdb-30fd7b024e26
+
+<img width="577" height="769" alt="image" src="https://github.com/user-attachments/assets/77b3e3c5-d136-4208-b1d9-e32beb41c3f5" />
+<img width="577" height="769" alt="image" src="https://github.com/user-attachments/assets/184ba50e-6723-4fd6-b645-1f651fb35c5a" />
+<img width="577" height="769" alt="image" src="https://github.com/user-attachments/assets/f9495326-e4bd-47c0-84c9-f504eaab25fd" />
+
 ## New Model
 <img width="610" height="424" alt="image" src="https://github.com/user-attachments/assets/f6b0e238-7900-4056-a866-e5787b8628e1" />
 <img width="966" height="529" alt="Screenshot 2025-08-04 184146" src="https://github.com/user-attachments/assets/e4291918-c3bc-44a8-8764-46a8a9be561d" />
