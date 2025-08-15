@@ -192,3 +192,108 @@ Because I have a limited number of straight short tubes and longer straight ones
 Redesigned and simplified the wiring and model
 
 **Total time spent: 2h**
+
+
+
+# August 4th: Cutting 2
+Cut all these pipes and made all the holes with a pipe notcher, drill, and angle grinder.
+
+<img width="880" height="633" alt="image" src="https://github.com/user-attachments/assets/d31e8ff0-4d15-4886-88c5-2c3460bf7e34" />
+
+**Total time spent: 7h**
+
+
+
+# August 5th: Welding (images from after assembling)
+Welded the main curved frame pipes together
+
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/c254145b-e787-4c66-8465-e04f7c66a0c1" />
+
+Welded the middle crossbeam
+
+<img width="1021" height="769" alt="image" src="https://github.com/user-attachments/assets/25a3f8e5-b2f2-48d4-b402-25a845a372a6" />
+
+Welded the rear swing arm
+
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/3d2463f8-a99c-4790-ab0e-5a12160a773c" />
+
+Welded the frame for mounting the seat
+
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/98658b2e-1b77-4e30-baee-5834f1e47b70" />
+
+Welded the front fork
+
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/62e51f2a-27c7-494d-a52d-c0a46a3b0032" />
+
+**Total time spent: 6h**
+
+
+
+# August 6th: Welding 2
+Welded the rear crossbeam
+
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/8e4a1c41-67c4-48b2-92e4-b2b32a2f95e4" />
+
+Welded the front crossbeam
+
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/b80ba932-fca1-4a66-b209-d0ab9e7c69e3" />
+
+Welded the frame for the seat to the vehicle frame with short pipes between
+
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/32ca4eec-5e64-49d1-a1c7-8dd62d117399" />
+
+Welded the front footrest and front fork mount
+
+<img width="1021" height="769" alt="image" src="https://github.com/user-attachments/assets/79ca9ebb-1de9-47ae-8b4d-9e1727d51f6d" />
+
+Welded a pipe for reinforcing the fork's connection
+
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/e970722a-e0ad-44b5-a569-b8ddb2e70006" />
+
+**Total time spent: 9h**
+
+
+
+# August 7th: Assembling
+
+Attached the handlebar pipe and twist throttle mount
+
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/740d7ede-5e2e-4cb1-9e28-cced015b86be" />
+
+Attached the two middle wheels
+
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/b34675bc-a33c-4c0c-a7d4-9c0d77f55803" />
+
+Fully bolted on the front fork and wheel. It took a while to keep everything aligned while attaching. It wasn't strong enough so I had to weld the pipes of the fork to the threaded rod.
+
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/661e0cfa-de9c-4649-ba3f-1698f597cf40" />
+
+Attached the rear swing arm
+
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/c566babe-41b1-4ba7-97bf-6a987cd37590" />
+
+Finished assembly:
+
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/66c4f18f-c92e-4f2e-9f8c-89cc067ebbe0" />
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/340a79a6-a205-45ca-8667-6d1989cd006e" />
+
+**Total time spent: 6h**
+
+
+
+# August 10th: Electronics
+
+I put the battery modules on the threaded rods and measured the distance between terminals. I marked the aluminum bars, drilled holes, then cut the bus bars off. I did the same for the long bars that carry power to the back. I bolted on the bars and tested their voltage. The entire battery pack was 48V. To make installation safer, I surrounded each long bar with cardboard, added a plastic bar between for support, and covered the rest of the terminals and bus bars with cardboard.
+
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/73927d9f-eee1-4d3a-8fa4-2d6bb04238f6" />
+<img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/e26b05b0-bbe5-4811-b098-9c93794dd04f" />
+
+**Total time spent: 4.5h**
+
+
+
+# August 11th: Electronics 2
+
+I attached the hoverboard motor to a controller for testing. They're VESCs, so I downloaded VESC Tool and watched some tutorials on how to use it. I powered the controller and 
+
+**Total time spent: 6h**
