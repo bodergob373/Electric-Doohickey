@@ -4,7 +4,7 @@ author: Jonathan Itoh
 description: A custom go-kart powered by 6 Nissan Leaf battery modules. It is driven by two hoverboard motors. The throttle sends signals to a microcontroller, which sends adjusted signals to both motor controllers. The rear wheels are on a suspension arm.
 created_at: 2025-06-25
 ---
-**total time spent: 76h**
+**total time spent: 130h**
 
 
 # June 25th: Research
@@ -189,7 +189,9 @@ Because I have a limited number of straight short tubes and longer straight ones
 
 
 # August 3rd: Redesign
-Redesigned and simplified the wiring and model
+Redesigned and simplified the wiring and model. Added another hoverboard wheel and reduced the number of batteries to 6.
+
+<img width="552" height="395" alt="Screenshot 2025-08-04 184208" src="https://github.com/user-attachments/assets/bb56ba34-d011-4108-bffb-94826aa65913" />
 
 **Total time spent: 2h**
 
@@ -288,7 +290,7 @@ I put the battery modules on the threaded rods and measured the distance between
 <img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/73927d9f-eee1-4d3a-8fa4-2d6bb04238f6" />
 <img width="579" height="769" alt="image" src="https://github.com/user-attachments/assets/e26b05b0-bbe5-4811-b098-9c93794dd04f" />
 
-**Total time spent: 4.5h**
+**Total time spent: 4h**
 
 
 
@@ -310,12 +312,16 @@ Now that the motor controllers and motors work, I need to make the throttle and 
 
 # August 13th: Assembling 2
 
-I lifted the battery onto the frame and connected them with threaded rods. I attached the seat and hoverboard motors, then taped the motor controllers on and started connecting terminals to a small battery for testing. I inverted the direction of one motor and readjusted voltage and current settings. I turned it on and it moved when I twisted the throttle, but one 3D printed wheel mount with less walls snapped. I melted it back together with scrap PLA and a heatgun and it became much stronger. When I brought it outside to test, it stopped turning on and the contactor wouldn't close.
+I lifted the battery onto the frame and connected them with threaded rods. I attached the seat and hoverboard motors, then taped the motor controllers on and started connecting terminals to a small battery for testing. I inverted the direction of one motor and readjusted voltage and current settings. I turned it on and it moved when I twisted the throttle, but one 3D printed wheel mount with less walls snapped. I melted it back together with scrap PLA and a heatgun and it became much stronger. When I brought it outside to test, it stopped turning on because the contactor wouldn't close when I power it.
 
 **Total time spent: 5h**
 
 # August 14th: Final Build
 
-I found out that some wires between the 
+I found out that some wires between the switch and contactor were severed. I connected the small battery plug to the contactor instead and it worked again. I disconnected the hoverboard battery and connected the power terminals to the battery pack and lowered the current limits on the motors to be safe. It still seemed underpowered even after increasing the current max, but I pumped up the tires for less rolling resistance and increased the limits even more and I could drive it.
 
-**Total time spent: 5h**
+<img width="577" height="769" alt="image" src="https://github.com/user-attachments/assets/02533ef3-0ed7-4576-b222-32fd7afa3b2a" />
+<img width="577" height="769" alt="image" src="https://github.com/user-attachments/assets/d8693aeb-b626-4eee-aaaf-21cb3d37d1cc" />
+<img width="577" height="769" alt="image" src="https://github.com/user-attachments/assets/d8379716-5f9d-469d-91a0-09366c2560e5" />
+
+**Total time spent: 4h**
