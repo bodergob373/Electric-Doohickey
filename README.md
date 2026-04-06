@@ -1,7 +1,7 @@
 # Electric-Doohickey
 
 ## Description
-A custom go-kart powered by 6 Nissan Leaf battery modules. It is driven by two hoverboard motors. The throttle sends signals to a microcontroller, which sends adjusted signals to both motor controllers. The rear wheels are on a suspension arm 
+A custom go-kart powered by 6 Nissan Leaf battery modules in series. It is driven by two hoverboard motors. The throttle sends signals to a microcontroller, which sends adjusted signals to both motor controllers. The rear wheels are on a suspension arm 
 
 ## Why?
 My main goal for the future is to build an ethanol-electric hybrid car from scratch. To do this, I need real-world experience designing electrical and mechanical stuff and more practice welding. I'm making this project so that I can design the electric part of the hybrid car and test it on a small, fast, and fun vehicle with only half the number of batteries, motor controllers, and motors.
