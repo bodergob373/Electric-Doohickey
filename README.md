@@ -7,7 +7,7 @@ A custom go-kart powered by 6 Nissan Leaf battery modules in series. It is drive
 My main goal for the future is to build an ethanol-electric hybrid car from scratch. To do this, I need real-world experience designing electrical and mechanical stuff and more practice welding. I'm making this project so that I can design the electric part of the hybrid car and test it on a small, fast, and fun vehicle with only half the number of batteries, motor controllers, and motors.
 
 ## The Build
-https://github.com/user-attachments/assets/7585e1b4-31f4-40f6-9fdb-30fd7b024e26
+https://github.com/user-attachments/assets/639fb712-8df2-44af-8d2e-14ca03924510
 
 <img width="577" height="769" alt="image" src="https://github.com/user-attachments/assets/77b3e3c5-d136-4208-b1d9-e32beb41c3f5" />
 <img width="577" height="769" alt="image" src="https://github.com/user-attachments/assets/184ba50e-6723-4fd6-b645-1f651fb35c5a" />
